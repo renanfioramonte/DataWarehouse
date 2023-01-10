@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="dbd1b680-d352-4198-8b29-bfc72c310807" ChangeDateTime="04/07/2020 13:24:37">
+    <Property Name="ElementName" Value="[dbo].[Dim_Fabrica].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Fabrica]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Fabrica" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="03ea1617-be7b-4609-9fec-d2f8c5a58b56" ChangeDateTime="04/07/2020 13:34:05">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ef6c5a09-de63-49bb-8f73-217bfd115bb8" ChangeDateTime="04/07/2020 13:34:16">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Cod_Cliente]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="C" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2249b96f-f669-4065-8c63-f5198a0a7706" ChangeDateTime="04/07/2020 13:34:26">
+    <Property Name="ElementName" Value="[dbo].[Table1].[C]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ca34e4f4-3e53-40cc-8031-53998f2c545e" ChangeDateTime="04/07/2020 13:34:30">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Desc_liente]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Desc_Cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2821630-0e70-485f-aabf-66c5707a97c1" ChangeDateTime="04/07/2020 13:36:28">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Desc_C]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Desc_Estado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9325f0e2-2f12-473d-8fab-f4cf41e32a4c" ChangeDateTime="04/07/2020 13:49:27">
+    <Property Name="ElementName" Value="[dbo].[Dim_Categoria].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Categoria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Categoria" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cc65f6d1-95aa-4b32-9a3a-d89639bf03b6" ChangeDateTime="04/07/2020 13:50:15">
+    <Property Name="ElementName" Value="[dbo].[Dim_Marca].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Marca]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Marca" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="771c9344-3542-400a-9999-a4472a055a8d" ChangeDateTime="04/07/2020 13:54:02">
+    <Property Name="ElementName" Value="[dbo].[Dim_Produto].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Produto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Produto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="81ca6fd4-27d1-4b2f-8b39-207696ea5e18" ChangeDateTime="04/07/2020 15:41:20">
+    <Property Name="ElementName" Value="[dbo].[Dim_Organizacional].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Organizacional]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Filho" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76a65384-eaa4-4d42-a6d3-3d87e3dfa5cc" ChangeDateTime="04/07/2020 15:48:23">
+    <Property Name="ElementName" Value="[dbo].[Dim_Tempo].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Tempo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Dia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4803e471-f1e9-4146-af40-c8823542e43c" ChangeDateTime="04/07/2020 15:52:36">
+    <Property Name="ElementName" Value="[dbo].[Dim_Tempo].[Nome_Trismestre]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Tempo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Nome_Trimestre" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c545b892-13dc-485f-a6a0-74dfca462781" ChangeDateTime="04/07/2020 15:55:29">
+    <Property Name="ElementName" Value="[dbo].[Dim_Tempo].[E_Dia_Semana]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Tempo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Tipo_Dia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c4c4409d-eb20-4053-b592-25362a422a3b" ChangeDateTime="04/07/2020 16:07:34">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e05d7d5e-5733-47e8-a765-be25cd539653" ChangeDateTime="04/07/2020 16:07:45">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[Cof_Produto]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Produto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9165d78b-516b-48b4-bc6a-474233865d2f" ChangeDateTime="04/07/2020 16:08:03">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[Cod_dia]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cod_Dia" />
+  </Operation>
+</Operations>
